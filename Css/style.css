@@ -184,3 +184,37 @@ h2 {
     padding: 8% ;
     font-size: 2rem;
 }
+.about h4 {
+    color: var(--primaryColor);
+    text-shadow: var(--lightmode) 1px .5px 1px;
+}
+
+.service {
+    background-color: var(--primaryColor);
+    width: 100% ;
+    height: 70vh;
+}
+.service h1 {
+    text-align: center;
+    padding : 5px;
+}
+.cards {
+    display: flex ;
+    font-family: serif ;
+    justify-content: space-between;
+    text-align: center ; 
+    padding : 0 15px ;
+}
+
+.cards div {
+    background-color: black;
+    margin: 0.5rem ;
+    border-radius: 30px ;
+    padding : 2% ;
+}
+.cards div p {
+    font-size: 1.5rem;
+}
+.cards div h5,i {
+    font-size: 2rem ;
+}
